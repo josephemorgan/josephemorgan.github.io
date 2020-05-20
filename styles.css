@@ -2,3 +2,7 @@ body {
     background-color: #003049;
     font-family: 'Raleway', sans-serif;
 }
+
+.card {
+    margin-bottom: 2em;
+}
