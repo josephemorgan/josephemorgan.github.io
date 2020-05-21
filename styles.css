@@ -6,3 +6,8 @@ body {
 .card {
     margin-bottom: 2em;
 }
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
