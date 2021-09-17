@@ -1,13 +1,71 @@
 body {
-    background-color: #003049;
-    font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 10rem;
+	background: #fff;
 }
 
-.card {
-    margin-bottom: 2em;
+.row {
+	padding-top: 2rem;
+}
+
+.navbar {
+	background: #7F7FD5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .card-img-top {
-    height: 250px;
-    object-fit: cover;
+	width: 80%;
+	margin: auto;
+	padding-top: 1rem;
+}
+
+.card {
+	margin-top: 3rem;
+}
+
+.card h3 {
+	text-align: center;
+	padding-top: 2rem;
+}
+
+em.tech_used {
+	color: #7f7fd5;
+}
+
+a {
+	text-decoration: none;
+	color: #303030;
+}
+a:hover {
+	text-decoration: none;
+	color: #505050;
+}
+
+div#header {
+	text-align: center;
+}
+
+div#header h1 {
+	font-size: 4.5rem;
+}
+
+div.joseph_image img {
+	width: 50%;
+	padding-bottom: 2rem;
+}
+
+div#projects_div {
+	padding-top: 10rem;
+}
+
+div#projects_div h2 {
+	text-align: center;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1400px;
+	}
 }
