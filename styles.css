@@ -17,12 +17,16 @@ body {
 
 .card-img-top {
 	width: 80%;
+	height: 20rem;
+	object-fit: contain;
 	margin: auto;
 	padding-top: 1rem;
 }
 
 .card {
 	margin-top: 3rem;
+	box-shadow: 1px 1px 5px 1px rgb(0 0 0 / 25%), 6px 5px 10px 4px rgb(0 0 0 / 10%);
+	border: 0px;
 }
 
 .card h3 {
@@ -38,6 +42,7 @@ a {
 	text-decoration: none;
 	color: #303030;
 }
+
 a:hover {
 	text-decoration: none;
 	color: #505050;
@@ -51,9 +56,18 @@ div#header h1 {
 	font-size: 4.5rem;
 }
 
-div.joseph_image img {
-	width: 50%;
+#avatar {
+	width: 30%;
+	border-radius: 50%;
+}
+
+#avatar_container {
+	padding-top: 1rem;
 	padding-bottom: 2rem;
+}
+
+span.social_link {
+	margin: 1rem;
 }
 
 div#projects_div {
@@ -62,6 +76,10 @@ div#projects_div {
 
 div#projects_div h2 {
 	text-align: center;
+}
+
+div#social_link_container {
+	margin: .5rem 0rem 3rem 0rem;
 }
 
 @media (min-width: 1200px) {
