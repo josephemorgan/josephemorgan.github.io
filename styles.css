@@ -6,19 +6,12 @@ body {
 
 @media (max-width: 490px) {
 	body {
-		padding-top: 1rem;
+		padding-top: 4rem;
 	}
 }
 
 .row {
 	padding-top: 2rem;
-}
-
-.navbar {
-	background: #7F7FD5;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .card-img-top {
@@ -62,12 +55,18 @@ div#header h1 {
 	font-size: 4.5rem;
 }
 
+@media (max-width: 1000px) {
+	div#header h1{
+		font-size: 2rem;
+	}
+}
+
 #avatar {
 	width: 30%;
 	border-radius: 50%;
 }
 
-@media (max-width: 490px) {
+@media (max-width: 770px) {
 	#avatar {
 		width: 50%;
 		border-radius: 50%;
@@ -81,6 +80,16 @@ div#header h1 {
 
 span.social_link {
 	margin: 1rem;
+}
+
+@media (max-width: 400px) {
+	span.social_link_text {
+		display: none;
+	}
+
+	span.social_link {
+		font-size: 1.5rem;
+	}
 }
 
 div#projects_div {
