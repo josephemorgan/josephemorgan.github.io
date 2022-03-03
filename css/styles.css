@@ -19,6 +19,11 @@ body {
   background-color: #dddddd;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 div#resume {
   box-sizing: border-box;
   width: 8.5in;
@@ -137,8 +142,11 @@ hr {
 
 @media print {
   body {
-    width: 21cm;
-    height: 29.7cm;
-    margin: 30mm 45mm 30mm 45mm;
+    background-color: white;
+    height: 100%;
+  }
+
+  div#resume {
+    box-shadow: 0 0;
   }
 }
