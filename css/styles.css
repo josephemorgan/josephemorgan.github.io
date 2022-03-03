@@ -129,6 +129,12 @@ hr {
   width: 100%
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    height: calc(2 * 100vh);
+  }
+}
+
 @media print {
   body {
     width: 21cm;
